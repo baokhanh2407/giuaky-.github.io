@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết Kế Sân Vườn | GardenDesign</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            background-color: #f4f8f2;
+            color: #333;
+        }
+        .navbar {
+            background-color: #6DBE45;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+        .navbar-nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-link {
+            color: white;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .nav-link:hover,
+        .nav-link.active {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1.page-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2f5d34;
+        }
+        .design-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .design-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .design-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .design-card-content {
+            padding: 15px;
+        }
+        .design-card-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .footer {
+            background-color: #036322;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .navbar-nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div href="http://127.0.0.1:5500/giuaky.html" class="navbar-brand" class="nav-link">GardenDesign</div>
+        <div class="navbar-nav">
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link">Trang chủ</a>
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link">Trang chủ</a>
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link active">Thiết kế</a>
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link">Vật liệu</a>
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link">Cây kiểng</a>
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link">Giới thiệu</a>
+            <a href="http://127.0.0.1:5500/giuaky.html" class="nav-link">Liên hệ</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">Các phong cách thiết kế sân vườn nổi bật</h1>
+        <div class="design-grid">
+            <div class="design-card">
+                <img src="https://vuongquocden.vn/images/2020/10/13/cach-trang-tri-san-vuon-cho-nha-cap-4.jpg" alt="Vườn Châu Âu" style="width: auto;", height="auto">
+                <div class="design-card-content">
+                    <h3 class="design-card-title">Vườn tối giản</h3>
+                    <p>Phong cách đơn giản, tiết kiệm không gian</p>
+                </div>
+    <footer class="footer">
+        <p>© 2025 GardenDesign. Thiết kế với đam mê thiên nhiên.</p>
+    </footer>
+</body>
+</html>
